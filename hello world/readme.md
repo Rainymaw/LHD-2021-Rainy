@@ -9,5 +9,7 @@ https://tio.run/#arnoldc
 Or simply use the followng lines.
 
 > wget http://lhartikk.github.io/ArnoldC.jar
+
 > java -jar ArnoldC.jar helloworld.arnoldc
+
 > java helloworld
