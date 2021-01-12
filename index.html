@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <h1 class="title">The Tic Tac Toe</h1>
+        </div>
+        <div>
+            <h1 class="title" id="Player">PLAYER 1</h1>
+        </div>
+
+        <div class="grid-layout">
+            <div class="icon-player active-player" id="player1">
+                Player 1
+            </div>
+            <div class="icon-player" id="player2">
+                Player 2
+            </div>
+        </div>
+        <div class="grid-container">
+            
+            <div class="grid-item top-left">A</div>
+            <div class="grid-item top-center">B</div>
+            <div class="grid-item top-right">C</div>
+            <div class="grid-item center-left">D</div>
+            <div class="grid-item">E</div>
+            <div class="grid-item center-right">F</div>
+            <div class="grid-item bottom-left">G</div>
+            <div class="grid-item bottom-center">H</div>
+            <div class="grid-item bottom-right">I</div>
+
+        </div>
+        <div>
+            <h1 class="title" id="win"></h1>
+        </div>
+        <div>
+            <button type="button" id="restart"  hidden>RESTART</button>
+        </div>
+        <script src="index.js" async defer></script>
+    </body>
+</html>
