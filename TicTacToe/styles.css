@@ -9,14 +9,24 @@
 .icon-player{
         background-color:#6094FC;
         border: 10px solid blanchedalmond;
+        border-radius:5%;
         padding: 20px;
         font-size: 30px;
         text-align: center;
         color:white;
 }
 
+.icon-player2{
+    border: 10px solid blanchedalmond;
+    border-radius:5%;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
 .active-player{
     border:10px solid red;
+    border-radius:5%;
 }
 
 .grid-container {
@@ -40,7 +50,6 @@
       text-align:center;
       padding-top:10px;
       width:100%;
-      height:20px;
   }
 
   body{
@@ -104,3 +113,35 @@
   .center-left{
       border-left:0px;
   }
+
+
+
+/* Responsive part*/
+
+@media only screen and (max-width: 496px){
+
+    .grid-layout{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 20%;
+        padding: 10px;
+        margin: 0px 0px;
+    }
+
+    .grid-container {
+        display: grid;
+    
+        grid-template-columns: auto auto auto;
+        background-color:blanchedalmond;
+        padding: 10px;
+        margin: 0px 0px;
+      }
+
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: solid rgba(0, 0, 0, 0.8);
+        padding: 40px ;
+        font-size: 30px;
+        text-align: center;
+      }
+}
