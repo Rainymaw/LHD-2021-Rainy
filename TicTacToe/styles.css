@@ -1,0 +1,106 @@
+.grid-layout{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20%;
+    padding: 10px;
+    margin: 0px 250px;
+}
+
+.icon-player{
+        background-color:#6094FC;
+        border: 10px solid blanchedalmond;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        color:white;
+}
+
+.active-player{
+    border:10px solid red;
+}
+
+.grid-container {
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+    background-color:blanchedalmond;
+    padding: 10px;
+    margin: 0px 250px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .title{
+      text-align:center;
+      padding-top:10px;
+      width:100%;
+      height:20px;
+  }
+
+  body{
+      background-color:blanchedalmond;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  .grid-item:hover{
+      opacity:0.5;
+  }
+
+
+
+  /*
+  Button stylization
+  */
+  #restart{
+      width:50%;
+      margin: 0 25%;
+      border:0;
+      color:white;
+      height:40px;
+      background-color:#6094FC;
+      opacity:0.5;
+  }
+
+  #restart:hover{
+      opacity:1;
+  }
+  /*
+  Making many classes to stylize further the grid.
+  */
+
+  .top-left{
+      border-top:0px;
+      border-left:0px;
+  }
+
+  .top-center{
+    border-top:0px;
+  }
+
+  .top-right{
+      border-top:0px;
+      border-right:0px;
+  }
+  .center-right{
+      border-right:0px;
+  }
+  .bottom-right{
+      border-right:0px;
+      border-bottom:0px;
+  }
+  .bottom-center{
+      border-bottom:0px;
+  }
+  .bottom-left{
+      border-bottom:0px;
+      border-left:0px;
+  }
+  .center-left{
+      border-left:0px;
+  }
