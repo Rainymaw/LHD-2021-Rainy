@@ -6,7 +6,7 @@ length= len(str(seed))
 if length % 2 != 0:
     seed = int(str(seed).zfill(1))
     length= len(str(seed))
-print(seed)
+
 number = seed
 seenNumber = set()
 
@@ -21,5 +21,5 @@ for i in range(10):
     number = str(number * number).zfill(len(str(seed))*2)
     number = int(number[lowerBound:upperBound])
     
-print(number)
+print("the random number is : ",number)
 
