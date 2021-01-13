@@ -2,7 +2,9 @@
 
 #-Have an array
 
-testArray = [14,10,12,25,10,10,10,46,78,20,36,45,12,19,11,2,8,7,6,33,35,39]
+from os import system, name 
+
+testArray = [14,10,12,25,10,46,78,20,36,45,12,19,11,2,8,7,6,33,35,39]
 
 taille = len(testArray) - 1
 
@@ -21,6 +23,8 @@ pivot = testArray[taille]
 #step two : take a left and right index variable.
 left = 0
 right = taille
+
+counter = 0
 
 
 def calculPivot(left,right,pivot):
@@ -58,6 +62,7 @@ def quicksort(left, right):
         partition = calculPivot(left,right,pivot)
         quicksort(left, partition-1)
         quicksort(partition+1,right)
+
         
 quicksort(left,right)
 
